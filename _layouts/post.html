@@ -34,14 +34,13 @@ layout: default
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments
       powered by Disqus.</a></noscript>
   {%- endif -%}
-</div>
-<div id="gitmentContainer"></div>
+  <div id="gitmentContainer"></div>
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
 var gitment = new Gitment({
     owner: '40wonders',
-    repo: '40wonders.github.io/blog',
+    repo: '40wonders.github.io',
     oauth: {
         client_id: 'f3e775d1dfdc2a52a6cf',
         client_secret: 'bd2a71d5dc45e7fba6164afd8094c73ce110a0ab',
@@ -49,4 +48,6 @@ var gitment = new Gitment({
 });
 gitment.render('gitmentContainer');
 </script>
+</div>
+
 
